@@ -1,0 +1,189 @@
+<!--
+  ~  Copyright 2017 Rozdoum
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  -->
+
+<resources>
+    <string name="label_create_post_activity">Not paylaş</string>
+    <string name="label_post_detail_activity">Gönderi detaylar</string>
+    <string name="label_image_detail_activity">Fotoğraf</string>
+    <string name="title_activity_login">Giriş yap</string>
+    <string name="title_activity_create_profile">Profil oluştur</string>
+    <string name="title_activity_profile">Profil</string>
+    <string name="title_activity_edit_profile">Profili düzenle</string>
+    <string name="title_activity_edit_post">Gönderiyi düzenle</string>
+    <string name="title_activity_following_posts">Takip edilen gönderiler</string>
+
+    <string name="text_take_photo">Fotoğraf çek</string>
+    <string name="text_pick_photo">Galeriden seç</string>
+    <string name="button_title_cancel">İptal</string>
+    <string name="button_ok">Tamam</string>
+
+    <string name="hint_title">Başlık</string>
+    <string name="hint_description">Açıklama</string>
+
+    <string name="message_post_was_created">Oluşturuldu.</string>
+    <string name="error_fail_create_post">Oluşturulamadı !</string>
+    <string name="error_fail_load_image">Fotoğraf yüklenemedi.</string>
+    <string name="error_fail_crop_image">Fotoğraf kırpılamadı.</string>
+    <string name="error_smaller_image">Fotoğraf çok küçük.En az 100x100 pixel olmalı.</string>
+    <string name="error_incorrect_file_type">Yanlış dosya tipi.</string>
+    <string name="error_bigger_file">Fotoğraf 10MB\'dan büyük olamaz.</string>
+    <string name="message_creating_post">Oluşturuluyor..</string>
+    <string name="message_saving">Kaydediliyor..</string>
+    <string name="warning_empty_image">Fotoğraf gereklidir.</string>
+    <string name="warning_empty_title">Başlık gereklidir.</string>
+    <string name="warning_empty_description">Açıklama gereklidir.</string>
+    <string name="error_post_title_length">En fazla 255 karakter girebilirsiniz.</string>
+    <string name="error_fail_remove_post">Gönderi silinemedi!</string>
+    <string name="message_post_was_removed">Gönderi kaldırıldı.</string>
+    <string name="error_fail_update_post">Gönderi yüklenirken hata oluştu.</string>
+    <string name="error_post_was_removed">Gönderi kaldırıldı.</string>
+    <string name="confirm_deletion_post">Gönderi silinsin mi?</string>
+
+    <string name="comment_text_hint">Yorumunu yaz..</string>
+    <string name="button_post_comment">Yorum yap.</string>
+
+    <string name="label_comments">Yorumlar (%1$d):</string>
+
+    <string name="create_post_menu_label">Gönder</string>
+    <string name="create_post_full_menu_label">Gönderi oluştur</string>
+    <string name="sign_out_menu_label">Çıkış yap</string>
+    <string name="edit_profile_menu_label">Profili düzenle</string>
+    <string name="button_title_save">Tamamlandı</string>
+    <string name="button_title_continue">Devam</string>
+
+    <!-- Strings related to registration and login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_name">İsim</string>
+    <string name="prompt_password">Şifre</string>
+    <string name="prompt_conf_password">Parola onayı</string>
+    <string name="action_create_profile">Devam</string>
+    <string name="error_field_required">Bu alan gereklidir!</string>
+    <string name="error_profile_name_length">120 karakterden kısa olmalıdır.</string>
+    <string name="error_invalid_email">Email adresi geçersiz.</string>
+    <string name="error_confirm_password">Yanlış şifre onayı.</string>
+    <string name="action_sign_in">Oturum aç</string>
+    <string name="permissions_not_granted">Gerekli izinleri vermediniz.</string>
+    <string name="error_fail_create_profile">Profil oluşturulurken hata!</string>
+    <string name="error_fail_update_profile">Profil yüklenirken hata!</string>
+    <string name="text_login">Uygulamamızı kullandığınız için teşekkürler.Lütfen devam etmek için giriş yapın!</string>
+    <string name="error_authentication">Kimlik doğrulama hatası!</string>
+    <string name="error_google_play_services">Google Play Servisleri hatası.</string>
+    <string name="button_login_with_facebook">Facebook ile giriş</string>
+    <string name="button_login_with_google">Google ile giriş</string>
+
+
+    <string name="loading">Yükleniyor …</string>
+    <string name="removing">Kaldırılıyor …</string>
+    <string name="error_general">Bi şeyler ters gitti :(</string>
+    <string name="error_general_post">Bi şeyler ters gitti :( id: %1$s</string>
+    <string name="internet_connection_failed">İnternet bağlantısı yok.</string>
+    <string name="press_once_again_to_exit">Çıkmak için tekrar bas.</string>
+
+    <!-- Strings related to login -->
+
+    <string name="error_invalid_password">Bu şifre çok kısa.</string>
+    <string name="error_incorrect_password">Bu şifre geçersiz.</string>
+    <string name="permission_rationale">İletişim izinleri mail hesabını doğrulamak için istenmektedir.</string>
+
+    <string name="profile_menu_item">Profil</string>
+    <string name="collapse_text_label">Daha az göster.</string>
+    <string name="expand_text_label">Devamını göster</string>
+    <string name="add_complain">Şikayet</string>
+    <string name="edit_post_menu">Düzenle</string>
+    <string name="delete_post_menu">Sil</string>
+    <string name="complain_text">Bu gönderiyi uygunsuz buluyorsanız şikayet edebilirsiniz.</string>
+
+    <string name="send_comment_button_label">Gönder</string>
+    <string name="posted_by_label">Paylaşan:</string>
+
+    <plurals name="posts_counter_format">
+        <item quantity="one">gönderi</item>
+        <item quantity="other">gönderiler</item>
+    </plurals>
+
+    <plurals name="likes_counter_format">
+        <item quantity="one">beğeni</item>
+        <item quantity="other">beğeniler</item>
+    </plurals>
+
+    <plurals name="followers_counter_format">
+        <item quantity="one">takipçi</item>
+        <item quantity="other">takipçiler</item>
+    </plurals>
+
+    <plurals name="followings_counter_format">
+        <item quantity="one">takip edilen</item>
+        <item quantity="other">takip edilenler</item>
+    </plurals>
+
+    <string name="posts_label">Gönderiler:</string>
+    <string name="complain_sent">Başarıyla şikayet edildi.</string>
+    <string name="now_time_range">şimdi</string>
+
+    <string name="duration_minutes_shortest">%1$d dakika</string>
+    <string name="duration_hours_shortest">%1$d saat</string>
+    <string name="duration_days_shortest">%1$d gün</string>
+    <string name="duration_week_shortest">%1$d hafta</string>
+
+    <string name="post_image_transition_name" translatable="false">post_image_transition</string>
+    <string name="post_author_image_transition_name" translatable="false">post_author_image_transition_name</string>
+    <string name="message_new_post_was_created">Yeni gönderi oluşturuldu.</string>
+
+    <plurals name="new_posts_counter_format">
+        <item quantity="one">%1$d new post</item>
+        <item quantity="other">%1$d new posts</item>
+    </plurals>
+
+    <string name="edit_comment_menu_item">Düzenle</string>
+    <string name="delete_comment_menu_item">Sil</string>
+    <string name="message_comment_was_removed">Yorumunuz kaldırıldı.</string>
+    <string name="message_comment_was_edited">Yorum düzenlendi.</string>
+    <string name="title_edit_comment">Yorumu düzelt.</string>
+
+    <!--Follow-->
+    <string name="button_follow_title">Takip et.</string>
+    <string name="button_follow_back_title">Geri takip et.</string>
+    <string name="button_following">Takip ediliyor.</string>
+    <string name="unfollow_user_message">%1$s takibi bırak ?</string>
+    <string name="button_title_unfollow">Takibi bırak.</string>
+    <string name="message_following_posts_empty">Birilerinin yeni gönderilerini görebilmek için takip et.</string>
+    <string name="following_post_menu_item">Takip edilen gönderiler</string>
+
+    <!--Users list-->
+    <string name="title_followers">Takipçiler</string>
+    <string name="title_followings">Takip edilenler</string>
+    <string name="message_empty_list">Henüz %1$s mesajınız yok.</string>
+
+    <!--Search-->
+    <string name="search_menu_item">Ara</string>
+    <string name="search_hint">Ders adı …</string>
+    <string name="posts_tab_title">Gönderiler</string>
+    <string name="users_tab_title">Kullanıcılar</string>
+    <string name="empty_posts_search_message">Gönderi bulunamadı</string>
+    <string name="empty_user_search_message">Kullanıcı bulunamadı</string>
+
+
+    <!--Firebase errors-->
+    <string name="permission_denied_error">Please check your rules to access the Firebase Realtime Database</string>
+
+    <!--Notifications-->
+    <string name="new_like_channel_name">Yeni beğeni</string>
+    <string name="new_comment_channel_name">Yeni yorum</string>
+    <string name="app_name">Notlan</string>
+
+
+</resources>
